@@ -1,2 +1,11 @@
 htop => comando de verificar processos e deletar 
 dophin => explorer linux 
+sudo netstat -tlpn => voce vera os processos em execução atual
+which (nome do programa) =>  Para localizar um programa instalado no Linux.
+whereis = Para saber quais são os diretórios do programa instalado.
+
+executar um executavel pelo cmd = () => {
+chmod +x(executable) /caminho/do/arquivo/arquivo.bin = dar permissao no executavel
+/caminho/do/arquivo/arquivo.bin  = so digitar o caminho e enter.
+
+}
