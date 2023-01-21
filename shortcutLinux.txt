@@ -3,9 +3,30 @@ dophin => explorer linux
 sudo netstat -tlpn => voce vera os processos em execução atual
 which (nome do programa) =>  Para localizar um programa instalado no Linux.
 whereis = Para saber quais são os diretórios do programa instalado.
-
+wget ={
+        -O: salva o arquivo no diretório de trabalho atual com o mesmo nome do local remoto;
+	-o: permite que você especifique um nome de arquivo e um local diferente do de origem. Veja os exemplos de comandos abaixo:
+	$ curl -O https://seudominio.com/seuarquivo.tar.gz # Save as seuarquivo.tar.gz
+	$ curl -o novonome.tar.gz https://seudominio.com/seuarquivo.tar.gz # Save as novonome.tar.gz
+}
 executar um executavel pelo cmd = () => {
 chmod +x(executable) /caminho/do/arquivo/arquivo.bin = dar permissao no executavel
 /caminho/do/arquivo/arquivo.bin  = so digitar o caminho e enter.
 
+}
+
+open . = abre a pasta no diretorio atual
+ranger = {
+    serve pra mostrar e navegar entre os arquivos de forma dinamica via cmd
+}
+
+trash ={
+ trash-list :  mostra a lixeira  
+ trash-empty: esvazia ela
+}
+
+ip address | ifconfig = descobrir o ip da rede => {
+ ex: 
+   ip address | grep eth0 | grep inet | awk '{print $2}'
+   
 }
