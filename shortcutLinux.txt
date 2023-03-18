@@ -15,10 +15,18 @@ chmod +x(executable) /caminho/do/arquivo/arquivo.bin = dar permissao no executav
 
 }
 
+Ctrl + h => exibe arquivos ocultos 
+
+fim = serve para abrir imagens via cmd 
+
 open . = abre a pasta no diretorio atual
 ranger = {
     serve pra mostrar e navegar entre os arquivos de forma dinamica via cmd
 }
+gedit=> editor de texto
+
+neofetch=> mostra as config do sistema
+
 
 trash ={
  trash-list :  mostra a lixeira  
