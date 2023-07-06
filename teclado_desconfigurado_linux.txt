@@ -1,0 +1,43 @@
+Se o teclado do seu sistema Kali Linux estiver desconfigurado, você pode tentar resolver o problema seguindo estes passos:
+
+1. Verifique a configuração do teclado: Abra um terminal e execute o seguinte comando:
+
+   ```
+   dpkg-reconfigure keyboard-configuration
+   ```
+
+   Isso permitirá que você reconfigure a disposição do teclado. Siga as instruções na tela e escolha a configuração adequada para o seu teclado.
+
+2. Atualize o sistema: Certifique-se de ter todas as atualizações instaladas executando os seguintes comandos:
+
+   ```
+   sudo apt update
+   sudo apt upgrade
+   ```
+
+   Isso atualizará os pacotes do seu sistema, incluindo aqueles relacionados ao teclado e à configuração regional.
+
+3. Verifique a configuração regional: Verifique se a configuração regional está correta. Execute o seguinte comando para editar o arquivo de configuração:
+
+   ```
+   sudo nano /etc/default/locale
+   ```
+
+   Verifique se os valores estão corretos para a sua localidade. Por exemplo, para um sistema em português do Brasil, os valores seriam:
+
+   ```
+   LANG=pt_BR.UTF-8
+   LC_ALL=pt_BR.UTF-8
+   ```
+
+   Salve as alterações e reinicie o sistema.
+
+4. Reinicie o serviço de configuração do teclado: Se os passos anteriores não resolverem o problema, você pode reiniciar o serviço de configuração do teclado com o seguinte comando:
+
+   ```
+   sudo service keyboard-setup restart
+   ```
+
+   Isso reiniciará o serviço e aplicará a configuração atual.
+
+Se, mesmo após seguir esses passos, o teclado continuar desconfigurado, pode haver um problema de hardware ou podem ser necessários passos adicionais específicos para o seu caso. Nesse caso, recomendo buscar ajuda na comunidade do Kali Linux ou em fóruns especializados em assuntos de Linux.
