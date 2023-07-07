@@ -14,6 +14,7 @@ chmod +x(executable) /caminho/do/arquivo/arquivo.bin = dar permissao no executav
 /caminho/do/arquivo/arquivo.bin  = so digitar o caminho e enter.
 
 }
+exa (subtitui ls) exa -la
 
 Ctrl + h => exibe arquivos ocultos 
 
